@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+}
+h1{
+    margin-left: 1vw;
+    color: white;
+}
+h2{
+    color: white;
+}
+#dica{
+    text-align: center;
+}
+#img-forca{
+    margin-top: 2vw;
+    width: 15vw;
+    margin-left: 10vw;
+}
+#separacao-forca{
+    display: flex;
+}
+.letras-erradas{
+    border: 1px white solid;
+    margin-left: 10vw;
+    width: 40vw;
+    text-align: center;
+    border-radius: 0.5vw;
+}
+#linha{
+    margin-top: 12vw;
+    font-size: 2vw;
+}
+.teclas-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 4vw;
+    margin-right: 2vw;
+    border: 1px solid white;
+    border-radius: 1vw;
+    width: 5vw;
+}
+.teclas-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    color: white;
+    font-size: 4vw;
+    margin-right: 1.5vw;
+    border: 1px solid white;
+    border-radius: 1vw;
+    width: 5vw;
+}
+.teclas-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    color: white;
+    font-size: 4vw;
+    margin-right: 1.5vw;
+    border: 1px solid white;
+    border-radius: 1vw;
+    width: 5vw;
+}
+.teclas-1:hover{
+    transform: scale(1.2);
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
+}
+.teclas-2:hover{
+    transform: scale(1.2);
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
+}
+.teclas-3:hover{
+    transform: scale(1.2);
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
+}
+.teclado-1{
+    margin-top: 1vw;
+    display: flex;
+    margin-left: 12vw;
+}
+.teclado-2{
+    margin-top: 1vw;
+    display: flex;
+    margin-left: 14vw;
+}
+.teclado-3{
+    margin-top: 1vw;
+    display: flex;
+    margin-left: 24vw;
+}
